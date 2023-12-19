@@ -85,5 +85,5 @@ app.use((err, req, res, next) => {
 
 app.listen(process.env.PORT || 3000, () => {
 
-    console.log("app has been started!!")
+    console.log(`Starting Express server on http://localhost:${PORT}`)
 })
